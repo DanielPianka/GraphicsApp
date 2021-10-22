@@ -10,8 +10,6 @@ import java.awt.image.BufferedImage;
 import java.awt.image.RescaleOp;
 import java.io.File;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -32,7 +30,6 @@ public class okno extends javax.swing.JFrame
     private void initComponents() {
 
         wybierz = new javax.swing.JFileChooser();
-        zapisz = new javax.swing.JFileChooser();
         przyciskwczytaj = new javax.swing.JButton();
         okno1 = new javax.swing.JLabel();
         okno2 = new javax.swing.JLabel();
@@ -47,8 +44,6 @@ public class okno extends javax.swing.JFrame
         jButton3 = new javax.swing.JButton();
         przyciskzapisz = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
-
-        zapisz.setFileSelectionMode(javax.swing.JFileChooser.FILES_AND_DIRECTORIES);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Aplikacja graficzna by Daniel Pianka");
@@ -518,6 +513,5 @@ public class okno extends javax.swing.JFrame
     private javax.swing.JButton przyciskwczytaj;
     private javax.swing.JButton przyciskzapisz;
     private javax.swing.JFileChooser wybierz;
-    private javax.swing.JFileChooser zapisz;
     // End of variables declaration//GEN-END:variables
 }
